@@ -62,7 +62,7 @@ public class Lab3
     {
       int i = count-1;
 
-      while (newVal < arr[i] && i >= 0) {
+      while (i >= 0 && newVal < arr[i]) {
 
             arr[i+1] = arr[i];
             i--;
